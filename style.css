@@ -1,4 +1,5 @@
-body {
+body 
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,23 +8,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#app {
+#app 
+{
     text-align: center;
 }
 
-h1 {
+h1 
+{
     color: #333;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-#email-addresses-list {
+#email-addresses-list 
+{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#email-addresses-list li {
+#email-addresses-list li 
+{
     background-color: #fff;
     border-radius: 5px;
     padding: 1rem;
