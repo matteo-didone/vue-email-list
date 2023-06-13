@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- VUE -->
     <script src="https://unpkg.com/vue@3.2.30"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Vue Email List</title>
     <!-- Font Awesome 6.4.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -20,8 +22,11 @@
 <body>
 
     <!-- App Container -->
-    <div id="app" class="">
+    <div id="app">
+        
         <h1>Vue Email List</h1>
+        <ul id="email-addresses-list">
+        </ul>
     </div>
 
     <script src="script.js"></script>
